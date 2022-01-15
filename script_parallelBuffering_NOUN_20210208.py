@@ -12,8 +12,8 @@ def diff_TH(list1, list2):
     return list((Counter(list2) - Counter(list1)).elements())
 
 
-fLS = open("9x4L1_LS_GOLD_conID_conXML_2021-02-03.conllu")
-fTH = open("9x4L1_TH_GOLD_conID_conXML_2021-02-03.conllu")
+fLS = open("it_valico-ud-test.conllu")
+fTH = open("it_thvalico-ud-test.conllu")
 
 lineLS = None
 lineTH = None
