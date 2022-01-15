@@ -1,0 +1,1604 @@
+# sent_id = 14-01_de-1
+# text = Ieri al parco
+# err = Ieri al parco
+1	Ieri	ieri	ADV	B	_	4	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+
+# sent_id = 14-02_de-1
+# text = Ieri al parco Giacomo è stato seduto sopra un banco nel parco e ha letto il giornale dello sport quando ha visto un uomo portando una donna che ha gridato molto forte.
+# err = Ieri al parco Giacomo <IVT><i>è stato seduto</i><c>sedeva</c></IVT> sopra <IDGcascade><RNL><i>un banco</i><c>un panca</c></RNL><i>un panca</i><c>una panca</c></IDGcascade> nel parco e <IVT><i>ha letto</i><c>leggeva</c></IVT> il giornale dello sport<SPM><i>_</i><c>,</c></SPM> quando ha visto un uomo <IVO><i>portando</i><c>che stava portando</c></IVO> una donna che ha gridato molto forte.
+1	Ieri	ieri	ADV	B	_	8	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	Giacomo	Giacomo	PROPN	SP	_	8	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux	_	_
+8	seduto	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	sopra	sopra	ADP	E	_	11	case	_	_
+10	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	banco	banco	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	parco	parco	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	dello	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sport	sport	NOUN	S	Gender=Masc	19	nmod	_	_
+23	quando	quando	SCONJ	CS	_	25	mark	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+26	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	portando	portare	VERB	V	VerbForm=Ger	27	acl	_	_
+29	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	donna	donna	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	gridato	gridare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+34	molto	molto	ADV	B	_	35	advmod	_	_
+35	forte	forte	ADJ	A	Number=Sing	33	xcomp	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 14-03_de-1
+# text = L'uomo ha avuto l'aspetto di un uomo molto forte e pericoloso ma Giacomo ha creduto che la donna ha bisogno di aiuto quindi ha deciso di aiutare alla donna.
+# err = L'uomo <IVT><i>ha avuto</i><c>aveva</c></IVT> l'aspetto di un uomo molto forte e pericoloso<SPM><i>_</i><c>,</c></SPM> ma Giacomo ha creduto che la donna <IVB><i>ha bisogno</i><c>avesse bisogno</c></IVB> di aiuto<SPM><i>_</i><c>,</c></SPM> quindi ha deciso di aiutare <UT><i>alla</i><c>la</c></UT> donna.
+1	L'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	forte	forte	ADJ	A	Number=Sing	9	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	_
+14	ma	ma	CCONJ	CC	_	17	cc	_	_
+15	Giacomo	Giacomo	PROPN	SP	_	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+18	che	che	SCONJ	CS	_	21	mark	_	_
+19	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	donna	donna	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+21	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+22	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	quindi	quindi	CCONJ	CC	_	27	cc	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	aiutare	aiutare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	donna	donna	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 14-04_de-1
+# text = Cosi Giacomo si ha battuto con l'uomo per aiutare alla donna.
+# err = <SIM><i>Cosi</i><c>Così</c></SIM> Giacomo si <RX><i>ha</i><c>è</c></RX> battuto con l'uomo per aiutare <UT><i>alla</i><c>la</c></UT> donna.
+1	Cosi	così	ADV	B	_	5	advmod	_	_
+2	Giacomo	Giacomo	PROPN	SP	_	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	aiutare	aiutare	VERB	V	VerbForm=Inf	5	advcl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 14-05_de-1
+# text = L'uomo è stato sull'suolo e Giacomo si ha sentito molto bene ma la donna le ha gridato: «Che hai fatto?!?»
+# err = L'uomo è <RV><i>stato</i><c>finito</c></RV> <FDG><i>sull'</i><c>sul </c></FDG>suolo e Giacomo si <RX><i>ha</i><c>è</c></RX> sentito molto bene<SPM><i>_</i><c>,</c></SPM> ma la donna <RA><i>le</i><c>gli</c></RA> ha gridato: "Che hai fatto?!?"
+1	L'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+5	su	su	ADP	E	_	7	case	_	_
+6	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	Giacomo	Giacomo	PROPN	SP	_	12	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	bene	bene	ADV	B	_	12	advmod	_	_
+15	ma	ma	CCONJ	CC	_	20	cc	_	_
+16	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	donna	donna	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+18	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	gridato	gridare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	20	punct	_	_
+22	«	«	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+23	Che	che	PRON	PQ	PronType=Int	25	obj	_	_
+24	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	parataxis	_	SpaceAfter=No
+26	?!?	?!?	PUNCT	FS	_	25	punct	_	SpaceAfter=No
+27	»	»	PUNCT	FB	_	25	punct	_	SpacesAfter=\n
+
+# sent_id = 14-06_de-1
+# text = Giacomo non ha capito niente e ha detto: «Ma solo ti ho aiutato!»
+# err = Giacomo non ha capito niente e ha detto: "Ma <WR><i>solo ti ho</i><c>ti ho solo</c></WR> aiutato!"
+1	Giacomo	Giacomo	PROPN	SP	_	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	niente	niente	PRON	PI	PronType=Ind	4	obj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+10	«	«	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+11	Ma	ma	CCONJ	CC	_	15	cc	_	_
+12	solo	solo	ADV	B	_	15	advmod	_	_
+13	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	obj	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	parataxis	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	15	punct	_	SpaceAfter=No
+17	»	»	PUNCT	FB	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 14-07_de-1
+# text = La donna ha risposto: È il mio ragazzo e stiamo facendo un film giallo!!»
+# err = La donna ha risposto: <SPM><i>_</i><c>"</c></SPM>È il mio ragazzo e stiamo facendo un film giallo!!"
+1	La	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+6	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	4	parataxis	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	facendo	fare	VERB	V	VerbForm=Ger	9	conj	_	_
+13	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	film	film	NOUN	S	Gender=Masc	12	obj	_	_
+15	giallo	giallo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	!!	!!	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+17	»	»	PUNCT	FB	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 15-01_de-1
+# text = Ierie al parco ho sedeto alla panchina e ho letto il giornale perchè il tempo bello.
+# err = <SR><i>Ierie</i><c>Ieri</c></SR> al parco <MAcascade><i>_</i><c>mi</c></MAcascade> <RX><i>ho</i><c>sono</c></RX> <IV><i>sedeto</i><c>seduto</c></IV> <RT><i>alla</i><c>sulla</c></RT> panchina e ho letto il giornale <SIR><i>perchè</i><c>perché</c></SIR> il tempo <MV><i>_</i><c>era</c></MV> bello.
+1	Ierie	ierie	ADV	B	_	6	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	sedeto	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	panchina	panca	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	EvalMorph=Dim
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	perchè	perchè	SCONJ	CS	_	17	mark	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+18	bello	bello	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 15-02_de-1
+# text = Durante un ragazzo è passato.
+# err = <RC><i>Durante</i><c>Nel mentre</c></RC> un ragazzo è passato.
+1	Durante	durante	ADP	E	_	5	mark	_	_
+2	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 15-03a_de-1
+# text = Questo ha portato una ragazza bella
+# err = Questo <IVT><i>ha portato</i><c>portava</c></IVT> una ragazza bella<SPM><i>_</i><c>.</c></SPM>
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	bella	bello	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\n
+
+# sent_id = 15-03b_de-1
+# text = questa ha gridata e è defenduta contra il ragazzo.
+# err = <SAS><i>questa</i><c>Questa</c></SAS> ha <IVG><i>gridata</i><c>gridato</c></IVG> e <MA><i>_</i><c>si</c></MA> è <IV><i>defenduta</i><c>difesa</c></IV> <ST><i>contra</i><c>contro</c></ST> il ragazzo.
+1	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	gridata	gridare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	defenduta	defendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+7	contra	contra	ADP	E	_	9	case	_	Foreign=Yes
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 15-04_de-1
+# text = Ho voluto aiutare la ragazza sconosciuta.
+# err = Ho voluto aiutare la ragazza sconosciuta.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3	aiutare	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	sconosciuta	sconosciuto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 15-05_de-1
+# text = Dunque sono alzato per salvare ragazza giovana.
+# err = Dunque <MA><i>_</i><c>mi</c></MA> sono alzato per salvare <MD><i>_</i><c>la</c></MD> ragazza <UJG><i>giovana</i><c>giovane</c></UJG>.
+1	Dunque	dunque	ADV	B	_	3	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	alzato	alzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	salvare	salvare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7	giovana	giovano	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 15-06_de-1
+# text = Sono andata ad entrambi.
+# err = Sono <IVG><i>andata</i><c>andato</c></IVG> <ST><i>ad</i><c>da</c></ST> entrambi.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	ad	ad	ADP	E	_	4	case	_	_
+4	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15-07_de-1
+# text = Sono stato coraggioso e ho battuto il ragazzo muscoloso.
+# err = Sono stato coraggioso e ho battuto il ragazzo muscoloso.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
+3	coraggioso	coraggioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	muscoloso	muscoloso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 15-08_de-1
+# text = Ha cadeto al terra e sono stato salvatore superbo, ma la ragazza bella è stata averecela.
+# err = <RX><i>Ha</i><c>È</c></RX> <IV><i>cadeto</i><c>caduto</c></IV> <UD><i>al</i><c>a</c></UD> terra e sono stato <MD><i>_</i><c>un</c></MD> salvatore superbo, ma la ragazza bella <RWW><i>è stata averecela</i><c>ce l'aveva con me</c></RWW>.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	cadeto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	terra	terra	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+9	salvatore	salvatore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+10	superbo	superbo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	18	punct	_	_
+12	ma	ma	CCONJ	CC	_	18	cc	_	_
+13	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+15	bella	bello	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	aux	_	_
+18-20	averecela	_	_	_	_	_	_	_	SpaceAfter=No
+18	avere	avere	VERB	V	VerbForm=Inf	2	conj	_	_
+19	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+20	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15-09_de-1
+# text = Ho tentato per parlare con ragazza si chiama Rosa.
+# err = Ho tentato <RT><i>per</i><c>di</c></RT> parlare con <MD><i>_</i><c>la</c></MD> ragazza<SPM><i>_</i><c>,</c></SPM> si chiama Rosa.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	parlare	parlare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+9	Rosa	Rosa	PROPN	SP	_	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15-10_de-1
+# text = Ma questa ha spiegata che entrambi hanno giocato soltanto.
+# err = Ma questa ha <IVG><i>spiegata</i><c>spiegato</c></IVG> che entrambi hanno <WR><i>giocato soltanto</i><c>soltanto giocato</c></WR>.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	spiegata	spiegare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+9	soltanto	soltanto	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 15-11_de-1
+# text = Sono stati coppia.
+# err = <IVT><i>Sono stati</i><c>Erano</c></IVT> <MD><i>_</i><c>una</c></MD> coppia.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	cop	_	_
+3	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 15-12_de-1
+# text = Ho scusato di malinteso!
+# err = <SXScascade><MAcascade><RX><i>Ho</i><c>Sono</c></RX><i>Sono</i><c>Mi Sono</c></MAcascade><i>Mi Sono</i><c>Mi sono</c></SXScascade> scusato <MD><i>di</i><c>del</c></MD> malinteso!
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	scusato	scusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	malinteso	malinteso	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 26-01_de-1
+# text = Amore
+# err = Amore
+1	Amore	amore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+
+# sent_id = 26-02_de-1
+# text = Ieri al parco uno studente era seduto sul banco.
+# err = Ieri al parco uno studente era seduto <IDGcascade><RNL><i>sul banco</i><c>sul panca</c></RNL><i>sul panca</i><c>sulla panca</c></IDGcascade>.
+1	Ieri	ieri	ADV	B	_	8	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	studente	studente	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	seduto	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	banco	banco	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 26-03_de-1
+# text = Era una serata calda nell'estate.
+# err = Era una serata calda <RT><UD><i>nell'</i><c>in</c></UD><i>in</i><c>d'</c></RT>estate.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	serata	serata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l'	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	estate	estate	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 26-04_de-1
+# text = Lo studente era felicio, aspettava una amica con cui voleva uscire.
+# err = Lo studente era <UJG><i>felicio</i><c>felice</c></UJG>, aspettava una amica con cui voleva uscire.
+1	Lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	studente	studente	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	felicio	felicio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+7	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	amica	amico	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+11	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	uscire	uscire	VERB	V	VerbForm=Inf	8	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 26-05_de-1
+# text = Leggiava il giornale e rifletteva dove andare piu tardi con queste amica.
+# err = <IV><i>Leggiava</i><c>Leggeva</c></IV> il giornale e rifletteva <MT><i>_</i><c>su</c></MT> dove andare <SIM><i>piu</i><c>più</c></SIM> tardi con <IDN><i>queste</i><c>questa</c></IDN> amica.
+1	Leggiava	leggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	rifletteva	riflettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+6	dove	dove	ADV	B	_	7	advmod	_	_
+7	andare	andare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+8	piu	piu	ADV	B	_	9	advmod	_	_
+9	tardi	tardi	ADV	B	_	7	advmod	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	amica	amico	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 26-06_de-1
+# text = All'improviso ha sentito una donna che gridava molte ad alta voce.
+# err = All'<SB><i>improviso</i><c>improvviso</c></SB> ha sentito una donna che gridava <URG><URN><i>molte</i><c>molta</c></URN><i>molta</i><c>molto</c></URG> ad alta voce.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	improviso	improviso	ADJ	A	Gender=Masc|Number=Sing	5	obl	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	gridava	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+10	molte	molto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	9	obj	_	_
+11	ad	a	ADP	E	_	13	case	_	_
+12	alta	alto	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	voce	voce	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	LOC=adv|SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 26-07_de-1
+# text = Il suo raggazzo era molto arrabiato e la porteva sulle sue spalle.
+# err = Il suo <SB><i>raggazzo</i><c>ragazzo</c></SB> era molto <SB><i>arrabiato</i><c>arrabbiato</c></SB> e la <IV><i>porteva</i><c>portava</c></IV> sulle sue spalle.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	raggazzo	raggazzo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	arrabiato	arrabiato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	porteva	portere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+10-11	sulle	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	13	case	_	_
+11	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 26-08_de-1
+# text = Senza pensare lo studente ha aiuto subito.
+# err = Senza pensare<SPM><i>_</i><c>,</c></SPM> lo studente ha <IVM><i>aiuto</i><c>aiutato</c></IVM> subito.
+1	Senza	senza	SCONJ	CS	_	2	mark	_	_
+2	pensare	pensare	VERB	V	VerbForm=Inf	6	advcl	_	_
+3	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	studente	studente	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aiuto	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	subito	subito	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 26-09_de-1
+# text = Ha battuto l'uomo che è caduto.
+# err = Ha battuto l'uomo<SPM><i>_</i><c>,</c></SPM> che è caduto.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 26-10_de-1
+# text = Ma quando la ragazza ha visto il suo raggazzo co si, era desperata.
+# err = Ma quando la ragazza ha visto il suo <SB><i>raggazzo</i><c>ragazzo</c></SB> <SIM><SRT><i>co si</i><c>cosi</c></SRT><i>cosi</i><c>così</c></SIM>, era <SJ><i>desperata</i><c>disperata</c></SJ>.
+1	Ma	ma	CCONJ	CC	_	14	cc	_	_
+2	quando	quando	SCONJ	CS	_	6	mark	_	_
+3	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	raggazzo	raggazzo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	co	cosi	ADV	B	_	6	advmod	_	_
+11	si	_	X	_	_	10	goeswith	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	desperata	desperato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 26-11_de-1
+# text = «Carissimo, ti voglio bene, ti amo...»
+# err = "Carissimo, ti voglio bene, ti amo..."
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Carissimo	caro	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	5	vocative	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+5	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+9	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	...	...	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+11	»	»	PUNCT	FB	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 26-12_de-1
+# text = Lo studente non ha capito niente.
+# err = Lo studente non ha capito niente.
+1	Lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	studente	studente	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	niente	niente	PRON	PI	PronType=Ind	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 26-13_de-1
+# text = Ora la ragazza era arrabiata con lui.
+# err = Ora la ragazza era <SB><i>arrabiata</i><c>arrabbiata</c></SB> con lui.
+1	Ora	ora	ADV	B	_	5	advmod	_	_
+2	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	arrabiata	arrabiato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 27-01_de-3
+# text = Ieri al parco un uomo giovane sede sul banco e legge il giornale.
+# err = Ieri al parco un uomo giovane <IV><i>sede</i><c>siede</c></IV> <IDGcascade><RNL><i>sul banco</i><c>sul panca</c></RNL><i>sul panca</i><c>sulla panca</c></IDGcascade> e legge il giornale.
+1	Ieri	ieri	ADV	B	_	8	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	giovane	giovane	ADJ	A	Number=Sing	6	amod	_	_
+8	sede	sedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	banco	banco	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 27-02_de-3
+# text = Subito guarda come un altro uomo con grande forza fisica e con malumore porta una ragazza sulle sui spalle che grida.
+# err = Subito guarda come un altro uomo con grande forza fisica e con malumore porta <IDG><SD><WW><i>una ragazza sulle sui spalle</i><c>sulle sui spalle una ragazza</c></WW><i>sulle sui spalle una ragazza</i><c>sulle suoi spalle una ragazza</c></SD><i>sulle suoi spalle una ragazza</i><c>sulle sue spalle una ragazza</c></IDG> che grida.
+1	Subito	subito	ADV	B	_	2	advmod	_	_
+2	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	come	come	SCONJ	CS	_	14	mark	_	_
+4	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	altro	altro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
+9	forza	forza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	malumore	malumore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+14	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+15	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+17-18	sulle	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	20	case	_	_
+18	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	sui	suo	DET	AP	Gender=Masc|Number=Plur	20	det	_	_
+20	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	grida	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 27-03_de-3
+# text = L'uomo giovane vuòl'aiutare.
+# err = L'uomo giovane <SIU><SEU><i>vuòl'</i><c>vuòl</c></SEU><i>vuòl</i><c>vuol </c></SIU>aiutare.
+1	L'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	giovane	giovane	ADJ	A	Number=Sing	2	amod	_	_
+4	vuòl'	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+5	aiutare	aiutare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 27-04_de-3
+# text = Si alza e comincia di battere l'altro uomo perché pensa che la ragazza e sfortunata.
+# err = Si alza e comincia <RT><i>di</i><c>a</c></RT> <RV><i>battere</i><c>colpire</c></RV> l'altro uomo perché pensa che la ragazza <IVM><SIM><i>e</i><c>è</c></SIM><i>è</i><c>sia</c></IVM> sfortunata.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	alza	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	battere	battere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	altro	altro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	perché	perché	SCONJ	CS	_	11	mark	_	_
+11	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+12	che	che	SCONJ	CS	_	16	mark	_	_
+13	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+15	e	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	sfortunata	sfortunato	ADJ	A	Gender=Fem|Number=Sing	11	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 27-05_de-3
+# text = Riesce a di vincere l'amico della ragazza.
+# err = Riesce a <UT><i>di</i><c>_</c></UT> vincere l'amico della ragazza.
+1	Riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	4	mark	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	vincere	vincere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	amico	amico	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 27-06_de-3
+# text = Ma non riceva una frase di grazia.
+# err = Ma non <IVM><i>riceva</i><c>riceve</c></IVM> una frase di <RN><i>grazia</i><c>ringraziamento</c></RN>.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	riceva	ricevere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	frase	frase	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 27-07_de-3
+# text = In contrario la ragazza gli dice che è inamorata cotta nel questo uomo.
+# err = <RT><i>In</i><c>Al</c></RT> contrario la ragazza gli dice che è <SB><i>inamorata</i><c>innamorata</c></SB> cotta <UD><RT><i>nel</i><c>del</c></RT><i>del</i><c>di</c></UD> questo uomo.
+1	In	in	ADP	E	_	2	case	_	_
+2	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	LOC=adv
+3	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	inamorata	inamorato	ADJ	A	Gender=Fem|Number=Sing	6	ccomp	_	_
+10	cotta	cotta	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 27-08_de-3
+# text = « Il mia amore non dipende dal suo comportamento.»
+# err = " Il <IDG><i>mia</i><c>mio</c></IDG> amore non dipende dal suo comportamento."
+1	«	«	PUNCT	FB	_	6	punct	_	_
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	dipende	dipendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+12	»	»	PUNCT	FB	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 27-09_de-3
+# text = « Dio che può capire le donne!» Pensa il uomo giovane e si accomoda sul banco e legge il giornale di nuovo.
+# err = " Dio<SPM><i>_</i><c>,</c></SPM> <RA><i>che</i><c>chi</c></RA> può capire le donne!" <SVS><i>Pensa</i><c>pensa</c></SVS> <FDG><i>il </i><c>l'</c></FDG>uomo giovane e si accomoda <IDGcascade><RNL><i>sul banco</i><c>sul panca</c></RNL><i>sul panca</i><c>sulla panca</c></IDGcascade> e legge il giornale di nuovo.
+1	«	«	PUNCT	FB	_	2	punct	_	_
+2	Dio	dio	NOUN	S	Gender=Masc|Number=Sing	10	parataxis	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	capire	capire	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+6	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	2	punct	_	_
+10	Pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+13	giovane	giovane	ADJ	A	Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	accomoda	accomodare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	banco	banco	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	21	obl	_	LOC=adv|SpaceAfter=No
+26	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 28-01_de-3
+# text = 1) Amore
+# err = 1) Amore
+1	1	1	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	_
+3	Amore	Amore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+
+# sent_id = 28-02_de-3
+# text = Ieri al parco...stavo sedendo e leggendo il giornale di mattina.
+# err = Ieri al parco...<IVA><i>stavo sedendo</i><c>sedevo</c></IVA> e <IVAcascade><i>leggendo</i><c>leggevo</c></IVAcascade> il giornale di mattina.
+1	Ieri	ieri	ADV	B	_	7	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+5	...	...	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	stavo	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	sedendo	sedere	VERB	V	VerbForm=Ger	0	root	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	leggendo	leggere	VERB	V	VerbForm=Ger	7	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 28-03_de-3
+# text = Una ragazza con i capelli lunghi e biondi mi ha guardato e ha sorriso.
+# err = Una ragazza con i capelli lunghi e biondi mi <IVT><i>ha guardato</i><c>guardò</c></IVT> e  <IVT><i>ha sorriso</i><c>sorrise</c></IVT>.
+1	Una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	biondi	biondo	ADJ	A	Gender=Masc|Number=Plur	6	conj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	guardato	guardare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	sorriso	sorridere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 28-04_de-3
+# text = a me.
+# err = <STS><i>a</i><c>A</c></STS> me.
+1	a	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 28-05_de-3
+# text = Sembrava di essere molto simpatica.
+# err = Sembrava <UT><i>di</i><c>_</c></UT> essere molto simpatica.
+1	Sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	5	mark	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	simpatica	simpatico	ADJ	A	Gender=Fem|Number=Sing	1	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 28-06_de-3
+# text = Al provviso venne un tizio con un viso furiosissimo!
+# err = <FDG><DR><i>Al provviso</i><c>Al improvviso</c></DR><i>Al improvviso</i><c>All'improvviso</c></FDG> venne un tizio con un viso furiosissimo!
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	provviso	provviso	ADJ	A	Gender=Masc|Number=Sing	4	obl	_	LOC=adv
+4	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tizio	tizio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	viso	viso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	furiosissimo	furioso	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 28-07_de-3
+# text = Mi prese la bella donna alle spalle e andò via.
+# err = <SVScascade><UA><i>Mi prese</i><c>prese</c></UA><i>prese</i><c>Prese</c></SVScascade> la bella donna <RT><i>alle</i><c>sulle</c></RT> spalle e andò via.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	bella	bello	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	via	via	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 28-08_de-3
+# text = La ragazza gridava per aiuto.
+# err = La ragazza gridava <UT><i>per</i><c>_</c></UT> aiuto.
+1	La	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	gridava	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 28-09_de-3
+# text = Mi alzai e battai questo tizio arrabbiato.
+# err = Mi alzai e <IV><i>battai</i><c>battei</c></IV> questo tizio arrabbiato.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	alzai	alzare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	battai	battare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	tizio	tizio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	arrabbiato	arrabbiato	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 28-10_de-3
+# text = Quando era alla terra io sono stato - tentissimo.
+# err = Quando <IVT><i>era</i><c>fu</c></IVT> <UD><i>alla</i><c>a</c></UD> terra io <IVT><i>sono stato</i><c>fui</c></IVT> <SJ><i>- tentissimo</i><c>contentissimo</c></SJ>.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	terra	terra	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+9	-	-	PUNCT	FB	_	8	punct	_	_
+10	tentissimo	tento	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 28-11_de-3
+# text = Mi sentiì grandissimo, ma per/ a mio sorpreso la ragazza che io ho salvato non era felice!
+# err = Mi <SIU><i>sentiì</i><c>sentii</c></SIU> grandissimo, ma per<SPU><i>/</i><c>_</c></SPU><UT><i>a</i><c>_</c></UT> <IDGcascade><i>mio</i><c>mia</c></IDGcascade> <ING><i>sorpreso</i><c>sorpresa</c></ING> la ragazza che io <IVT><i>ho salvato</i><c>avevo salvato</c></IVT> non era felice!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	sentiì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	grandissimo	grande	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	19	punct	_	_
+5	ma	ma	CCONJ	CC	_	19	cc	_	_
+6	per	per	ADP	E	_	10	case	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	6	punct	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	sorpreso	sorpreso	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+11	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+13	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	salvato	salvare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	felice	felice	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+20	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 28-12_de-3
+# text = in quello momento era lei, che diventa furiosa!
+# err = <STS><i>in</i><c>In</c></STS> <FDG><i>quello</i><c>quel</c></FDG> momento era lei<SPU><i>,</i><c>_</c></SPU> che <IVT><i>diventa</i><c>diventava</c></IVT> furiosa!
+1	in	in	ADP	E	_	3	case	_	_
+2	quello	quel	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	furiosa	furioso	ADJ	A	Gender=Fem|Number=Sing	8	xcomp	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 28-13_de-3
+# text = Era il suo marito che avevo battuto « k.o.»...
+# err = Era <UD><i>il</i><c>_</c></UD> suo marito che avevo <RVO><i>battuto</i><c>messo</c></RVO> " k.o."...
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	marito	marito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+6	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	«	«	PUNCT	FB	_	9	punct	_	_
+9	k.o.	k.o.	ADV	B	_	7	advmod	_	SpaceAfter=No
+10	»	»	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	...	...	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 29-01_de-2
+# text = ﻿Ieri al parco un brutto uomo prendeva una bella ragazza e cercava ad andare via.
+# err = Ieri al parco un brutto uomo prendeva una bella ragazza e cercava <RT><i>ad</i><c>di</c></RT> andare via.
+1	﻿Ieri	﻿ieri	ADV	B	_	8	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	bella	bello	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+14	ad	a	ADP	E	_	15	mark	_	_
+15	andare	andare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	via	via	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 29-02_de-2
+# text = Ma la ragazza non voleva e protestava.
+# err = Ma la ragazza non voleva e protestava.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	protestava	protestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 29-03_de-2
+# text = Un altro ragazzo videva la situazione e ha avuto coraggio.
+# err = Un altro ragazzo <IV><i>videva</i><c>vedeva</c></IV> la situazione e ha avuto coraggio.
+1	Un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	videva	videre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+10	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 29-04_de-2
+# text = Si pensava che fosse incorretto e il barbaro.
+# err = <SVScascade><UA><i>Si pensava</i><c>pensava</c></UA><i>pensava</i><c>Pensava</c></SVScascade> che fosse incorretto e <UD><i>il</i><c>_</c></UD> barbaro.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	incorretto	incorretto	ADJ	A	Gender=Masc|Number=Sing	2	ccomp	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	barbaro	barbaro	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 29-05_de-2
+# text = Poi ed andato al brutto uomo di aiutare la ragazza con i capelli biondi.
+# err = Poi <SIM><SX><i>ed</i><c>e</c></SX><i>e</i><c>è</c></SIM> andato <RT><i>al</i><c>dal</c></RT> brutto uomo <RT><i>di</i><c>ad</c></RT> aiutare la ragazza con i capelli biondi.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	ed	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	aiutare	aiutare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+10	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	biondi	biondo	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 29-06_de-2
+# text = Si sentiva come un buono carrabiniere e ha cominciato a tiglare con il brutto uomo in modo forzo.
+# err = Si sentiva come un <FJG><i>buono</i><c>buon</c></FJG> <SB><i>carrabiniere</i><c>carabiniere</c></SB> e ha cominciato a <SV><i>tiglare</i><c>litigare</c></SV> con il brutto uomo in modo <RJ><DJ><i>forzo</i><c>forzoso</c></DJ><i>forzoso</i><c>violento</c></RJ>.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	come	come	ADV	B	_	6	advmod	_	_
+4	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	buono	buono	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	carrabiniere	carrabiniere	NOUN	S	Gender=Masc|Number=Sing	2	xcomp	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	tiglare	tiglare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	con	con	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	modo	modo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+18	forzo	forzo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 29-07_de-2
+# text = Ma il « carrabiniere » non si accorgeva che la ragazza non capiva niente.
+# err = Ma il " <SB><i>carrabiniere</i><c>carabiniere</c></SB> " non si accorgeva che la ragazza non capiva niente.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	«	«	PUNCT	FB	_	4	punct	_	_
+4	carrabiniere	carrabiniere	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	»	»	PUNCT	FB	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	accorgeva	accorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	13	mark	_	_
+10	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	capiva	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+14	niente	niente	PRON	PI	PronType=Ind	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 29-08_de-2
+# text = Qualchi minuti fra il ragazzo ha renduto conto che il brutto sognava..
+# err = <RD><i>Qualchi</i><c>Alcuni</c></RD> minuti <RR><SR><i>fra</i><c>fa</c></SR><i>fa</i><c>dopo</c></RR> il ragazzo <MA><i>_</i><c>si</c></MA> <RX><i>ha</i><c>è</c></RX> <IV><i>renduto</i><c>reso</c></IV> conto che il brutto sognava.
+1	Qualchi	qualche	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+3	fra	fra	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	renduto	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	conto	conto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	brutto	brutto	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	sognava	sognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+13	..	..	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 29-09_de-2
+# text = Ma la ragazza non era felice.
+# err = Ma la ragazza non era felice.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	felice	felice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 29-10_de-2
+# text = Invece l'ha detto parole e che lei voleva chiamare i giusti carrabinieri.
+# err = Invece <RA><i>l'</i><c>gli </c></RA>ha detto <RN><i>parole</i><c>parolacce</c></RN> e che lei voleva chiamare i <RJ><i>giusti</i><c>veri</c></RJ> <SB><i>carrabinieri</i><c>carabinieri</c></SB>.
+1	Invece	invece	ADV	B	_	4	advmod	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	SpaceAfter=No
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	chiamare	chiamare	VERB	V	VerbForm=Inf	4	conj	_	_
+11	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	giusti	giusto	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	carrabinieri	carrabiniere	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 29-11_de-2
+# text = Il brutto uomo dormendo era il amico della donna.
+# err = Il brutto uomo <IVO><i>dormendo</i><c>che stava dormendo</c></IVO> era <UD><FDG><i>il</i><c>l'</c></FDG><i>l'</i><c>_</c></UD>amico della donna.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	dormendo	dormire	VERB	V	VerbForm=Ger	3	acl	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	amico	amico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 30-01_de-2
+# text = Ieri al parco...
+# err = Ieri al parco...
+1	Ieri	ieri	ADV	B	_	4	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	...	...	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 30-02_de-2
+# text = Ieri al parco è successo qualcosa strano.
+# err = Ieri al parco è successo qualcosa <MT><i>_</i><c>di</c></MT> strano.
+1	Ieri	ieri	ADV	B	_	6	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	qualcosa	qualcosa	PRON	PI	PronType=Ind	6	nsubj	_	_
+8	strano	strano	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 30-03_de-2
+# text = Stavo leggendo un giornale e c'era il sole.
+# err = Stavo leggendo un giornale e c'era il sole.
+1	Stavo	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	leggendo	leggere	VERB	V	VerbForm=Ger	0	root	_	_
+3	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sole	sole	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 30-04_de-2
+# text = Faceva un bel giorno.
+# err = <RV><i>Faceva</i><c>Era</c></RV> un bel giorno.
+1	Faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	bel	bel	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 30-05_de-2
+# text = Poi ho notato una coppia che stava in conflitto.
+# err = Poi ho notato una coppia che <RV><i>stava</i><c>era</c></RV> in conflitto.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	notato	notare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	conflitto	conflitto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 30-06_de-2
+# text = Littigavano ed l'uomo portava la sua ragazza dietro di se.
+# err = <SB><i>Littigavano</i><c>Litigavano</c></SB> <FC><i>ed</i><c>e</c></FC> l'uomo portava la sua ragazza dietro di <SIM><i>se</i><c>sé</c></SIM>.
+1	Littigavano	littigare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	ed	e	CCONJ	CC	_	5	cc	_	_
+3	l'	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+6	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+9	dietro	dietro	ADV	B	_	11	case	_	_
+10	di	di	ADP	E	_	9	fixed	_	_
+11	se	se	PRON	PE	Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 30-07_de-2
+# text = Ho pensato improvisamente che dovessi aiutarla.
+# err = Ho pensato <SB><i>improvisamente</i><c>improvvisamente</c></SB>  che dovessi aiutarla.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	improvisamente	improvisamente	ADV	B	_	2	advmod	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	dovessi	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6-7	aiutarla	_	_	_	_	_	_	_	SpaceAfter=No
+6	aiutar	aiutare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+7	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 30-08_de-2
+# text = Dopo ho provato di liberare la donna che (con imperfetto?) stava gridando tutto il tempo.
+# err = Dopo ho provato <RT><i>di</i><c>a</c></RT> liberare la donna che (con imperfetto?) stava gridando tutto il tempo.
+1	Dopo	dopo	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	liberare	liberare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+9	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	con	con	ADP	E	_	11	case	_	_
+11	imperfetto	imperfetto	NOUN	S	Gender=Masc|Number=Sing	15	parataxis	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	11	punct	_	_
+14	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	gridando	gridare	VERB	V	VerbForm=Ger	7	acl:relcl	_	_
+16	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	18	det:predet	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	LOC=adv|SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 30-09_de-2
+# text = Poi, lei si è arrabbiata e mi ha detto che questo uomo con i grandi muscoli che si è sdraiato sulla terra era il suo fidanzato e la sua grande amore.
+# err = Poi, lei si è arrabbiata e mi ha detto che questo uomo con i grandi muscoli che si è sdraiato <UDcascade><RT><i>sulla</i><c>alla</c></RT><i>alla</i><c>a</c></UDcascade> terra era il suo fidanzato e <IDG><i>la</i><c>il</c></IDG> <IDG><i>sua</i><c>suo</c></IDG> grande amore.
+1	Poi	poi	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|PronType=Prs	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	arrabbiata	arrabbiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+11	che	che	SCONJ	CS	_	28	mark	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	grandi	grande	ADJ	A	Number=Plur	17	amod	_	_
+17	muscoli	muscolo	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	sdraiato	sdraiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+22-23	sulla	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	terra	terra	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	10	ccomp	_	_
+29	e	e	CCONJ	CC	_	33	cc	_	_
+30	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+32	grande	grande	ADJ	A	Number=Sing	33	amod	_	_
+33	amore	amore	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 30-10_de-2
+# text = Non sapavo che dovevo fare dopo perché la donna non ha capito che volevo solo aiutarla.
+# err = Non <IV><i>sapavo</i><c>sapevo</c></IV> che dovevo fare dopo perché la donna non <IVT><i>ha capito</i><c>aveva capito</c></IVT> che volevo solo aiutarla.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	sapavo	sapare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	dovevo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	dopo	dopo	ADV	B	_	5	advmod	_	_
+7	perché	perché	SCONJ	CS	_	12	mark	_	_
+8	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	donna	donna	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	aux	_	_
+15	solo	solo	ADV	B	_	16	advmod	_	_
+16-17	aiutarla	_	_	_	_	_	_	_	SpaceAfter=No
+16	aiutar	aiutare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+17	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 30-11_de-2
+# text = Perciò me ne andò.
+# err = Perciò me ne <IVT><IVP><i>andò</i><c>andai</c></IVP><i>andai</i><c>sono andato</c></IVT>.
+1	Perciò	perciò	CCONJ	CC	_	4	cc	_	_
+2	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 31-01_de-3
+# text = Luca e Paola si hanno litigato.
+# err = Luca e Paola <UA><i>si</i><c>_</c></UA> hanno litigato.
+1	Luca	Luca	PROPN	SP	_	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Paola	Paola	PROPN	SP	_	1	conj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	litigato	litigare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 31-02_de-3
+# text = Si litigavano spesso ma per loro era una cosa normale.
+# err = <SVScascade><UA><i>Si litigavano</i><c>litigavano</c></UA><i>litigavano</i><c>Litigavano</c></SVScascade> spesso ma per loro era una cosa normale.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	litigavano	litigare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	spesso	spesso	ADV	B	_	2	advmod	_	_
+4	ma	ma	CCONJ	CC	_	9	cc	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	obl	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+10	normale	normale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 31-03_de-3
+# text = Siccome Paola voleva restare al parco ma Luca voleva ritornare a casa per guardare la TV, lui l'ha presa per portarla a casa.
+# err = Siccome Paola voleva restare al parco ma Luca voleva ritornare a casa per guardare la TV, lui l'ha presa per portarla a casa.
+1	Siccome	siccome	SCONJ	CS	_	4	mark	_	_
+2	Paola	Paola	PROPN	SP	_	4	nsubj	_	_
+3	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	restare	restare	VERB	V	VerbForm=Inf	22	advcl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	parco	parco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	Luca	Luca	PROPN	SP	_	11	nsubj	_	_
+10	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	ritornare	ritornare	VERB	V	VerbForm=Inf	4	conj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	guardare	guardare	VERB	V	VerbForm=Inf	11	advcl	_	_
+16	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	TV	TV	NOUN	S	Gender=Fem	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	l'	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24-25	portarla	_	_	_	_	_	_	_	_
+24	portar	portare	VERB	V	VerbForm=Inf	22	advcl	_	_
+25	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	casa	casa	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n
+
+# sent_id = 31-04_de-3
+# text = Un ragazzo che sedeva al parco ha visto come Luca portava via Paola e pensava che era un crime.
+# err = Un ragazzo che sedeva al parco ha visto come Luca portava via Paola e pensava che <IVM><i>era</i><c>fosse</c></IVM> un <FNL><i>crime</i><c>crimine</c></FNL>.
+1	Un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	sedeva	sedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	parco	parco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	come	come	SCONJ	CS	_	12	mark	_	_
+11	Luca	Luca	PROPN	SP	_	12	nsubj	_	_
+12	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
+13	via	via	ADV	B	_	14	advmod	_	_
+14	Paola	Paola	PROPN	SP	_	12	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+17	che	che	SCONJ	CS	_	20	mark	_	_
+18	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+19	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	crime	crime	NOUN	S	Gender=Masc|Number=Sing	16	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 31-05_de-3
+# text = Per questo si è lanciato su Luca così che cadeva sulla terra.
+# err = Per questo si è lanciato su Luca così che <IVT><i>cadeva</i><c>è caduto</c></IVT> <UDcascade><RT><i>sulla</i><c>alla</c></RT><i>alla</i><c>a</c></UDcascade> terra.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	Luca	Luca	PROPN	SP	_	5	obl	_	_
+8	così	così	SCONJ	CS	_	10	mark	_	_
+9	che	che	SCONJ	CS	_	8	fixed	_	_
+10	cadeva	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	terra	terra	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 31-06_de-3
+# text = Poi Paola ha cominciato a gridare anche di più e il ragazzo non capiva niente perché pensava che aveva liberato Paola.
+# err = Poi Paola ha cominciato a gridare anche di più e il ragazzo non capiva niente perché pensava che aveva liberato Paola.
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	Paola	Paola	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	gridare	gridare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	più	più	ADV	B	_	14	advmod	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	capiva	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+15	niente	niente	PRON	PI	PronType=Ind	14	obj	_	_
+16	perché	perché	SCONJ	CS	_	17	mark	_	_
+17	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+18	che	che	SCONJ	CS	_	20	mark	_	_
+19	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	liberato	liberare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	ccomp	_	_
+21	Paola	Paola	PROPN	SP	_	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 31-07_de-3
+# text = Ma Paola ha detto ragazzo che Luca era suo fidanzato.
+# err = Ma Paola ha detto <MD><MT><i>_</i><c>a</c></MT><i>a</i><c>al</c></MD> ragazzo che Luca era <MD><i>_</i><c>il</c></MD> suo fidanzato.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	Paola	Paola	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	4	iobj	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	Luca	Luca	PROPN	SP	_	10	nsubj	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 31-08_de-3
+# text = Il ragazzo ha detto «scusa» e è andato via - «Sono veramente la coppia strana» ha pensato.
+# err = Il ragazzo ha detto <SPR><i>«scusa»</i><c>"scusa"</c></SPR> e è andato via - " Sono veramente <RD><i>la</i><c>una</c></RD> coppia strana " ha pensato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	scusa	scusa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	6	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11	via	via	ADV	B	_	10	advmod	_	_
+12	-	-	PUNCT	FB	_	10	punct	_	_
+13	«	«	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+14	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	veramente	veramente	ADV	B	_	17	advmod	_	_
+16	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	21	parataxis	_	_
+18	strana	strano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	»	»	PUNCT	FB	_	21	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 32-01_de-2
+# text = Amore
+# err = Amore
+1	Amore	amore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+
+# sent_id = 32-02_de-2
+# text = Ieri al parco è successo una cosa straordinaria.
+# err = Ieri al parco è <IVG><i>successo</i><c>successa</c></IVG> una cosa straordinaria.
+1	Ieri	ieri	ADV	B	_	6	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parco	parco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	straordinaria	straordinario	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 32-03_de-2
+# text = Avevo un appuntamento romantico con Marco, ma lui si è arrabbiato perché volevo finire la nostra relazione.
+# err = Avevo un appuntamento romantico con Marco, ma lui si è arrabbiato perché volevo <RVO><i>finire</i><c>chiudere</c></RVO> la nostra relazione.
+1	Avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	romantico	romantico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	Marco	Marco	PROPN	SP	_	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	ma	ma	CCONJ	CC	_	12	cc	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	arrabbiato	arrabbiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+13	perché	perché	SCONJ	CS	_	15	mark	_	_
+14	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	finire	finire	VERB	V	VerbForm=Inf	12	advcl	_	_
+16	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 32-04_de-2
+# text = Quindi, per lui è stato romantico secondo me dovesse saputo che non l'amo più...
+# err = Quindi, per lui <MR><i>_</i><c>non</c></MR> è stato romantico secondo me <FV><IVB><i>dovesse saputo</i><c>dovesse sapere</c></FV><i>dovesse sapere</i><c>dover sapere</c></IVB> che non l'amo più...
+1	Quindi	quindi	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	romantico	romantico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8	secondo	secondo	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	csubj	_	_
+12	che	che	SCONJ	CS	_	15	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	l'	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+15	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+16	più	più	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	...	...	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 32-05_de-2
+# text = ma che cosa succeva.
+# err = <SCS><i>ma</i><c>Ma</c></SCS> che cosa <IVT><IV><i>succeva</i><c>succedeva</c></IV><i>succedeva</i><c>è successo</c></IVT><SPR><i>.</i><c>?</c></SPR>
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+4	succeva	succere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 32-06_de-2
+# text = Un'uomo molto forte, intelligente, sportivo e carino mi ha salvato di questo ignorante persona Marco.
+# err = <SEU><i>Un'</i><c>Un </c></SEU>uomo molto forte, intelligente, sportivo e carino mi ha salvato <RT><i>di</i><c>da</c></RT> <IDG><i>questo</i><c>questa</c></IDG> ignorante persona<SPM><i>_</i><c>,</c></SPM> Marco.
+1	Un'	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	forte	forte	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	intelligente	intelligente	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	sportivo	sportivo	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	carino	carino	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	salvato	salvare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	ignorante	ignorante	ADJ	A	Number=Sing	17	amod	_	_
+17	persona	persona	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+18	Marco	Marco	PROPN	SP	_	17	appos	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 32-07_de-2
+# text = È stato molto confidente - l'ho detto immediatamente dopo la sua azione che mostrami la sua fortezza.
+# err = È stato molto <RWW><i>confidente</i><c>sicuro di sé</c></RWW> <SPR><i>-</i><c>,</c></SPR> l'ho detto immediatamente dopo la sua azione che <WA><IVT><i>mostrami</i><c>ha mostratomi</c></IVT><i>ha mostratomi</i><c>mi ha mostrato</c></WA> la sua <RN><i>fortezza</i><c>forza</c></RN>.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	confidente	confidente	ADJ	A	Number=Sing	8	parataxis	_	_
+5	-	-	PUNCT	FB	_	8	punct	_	_
+6	l'	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	immediatamente	immediatamente	ADV	B	_	8	advmod	_	_
+10	dopo	dopo	ADP	E	_	13	case	_	_
+11	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	azione	azione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15-16	mostrami	_	_	_	_	_	_	_	_
+15	mostra	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+17	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	fortezza	fortezza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 32-08_de-2
+# text = Probabilmente non è piaciuta a lui che io ho detto « Sei un uomo così bravo, hai salvato mi, ti amo!»
+# err = Probabilmente non è <IVG><i>piaciuta</i><c>piaciuto</c></IVG> a lui che io <IVM><i>ho detto</i><c>abbia detto</c></IVM><SPM><i>_</i><c>:</c></SPM> " Sei un uomo così bravo, <WA><i>hai salvato mi</i><c>mi hai salvato</c></WA>, ti amo!"
+1	Probabilmente	probabilmente	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	piaciuta	piacere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+11	«	«	PUNCT	FB	_	14	punct	_	_
+12	Sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	10	parataxis	_	_
+15	così	così	ADV	B	_	16	advmod	_	_
+16	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	salvato	salvare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	23	obj	_	_
+23	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	SpaceAfter=No
+24	!	!	PUNCT	FS	_	14	punct	_	SpaceAfter=No
+25	»	»	PUNCT	FB	_	14	punct	_	SpacesAfter=\n
+
