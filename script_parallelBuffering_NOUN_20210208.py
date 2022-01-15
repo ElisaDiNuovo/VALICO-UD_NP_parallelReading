@@ -11,9 +11,25 @@ def diff_LS(list1, list2):
 def diff_TH(list1, list2):
     return list((Counter(list2) - Counter(list1)).elements())
 
-
+# all 36 texts
 fLS = open("it_valico-ud-test.conllu")
 fTH = open("it_thvalico-ud-test.conllu")
+
+# only DE L1 texts
+# fLS = open("L1wise_data/ls_1st-release_DE.conllu")
+# fTH = open("L1wise_data/th_1st-release_DE.conllu")
+
+# only EN L1 texts
+# fLS = open("L1wise_data/ls_1st-release_EN.conllu")
+# fTH = open("L1wise_data/th_1st-release_EN.conllu")
+
+# only ES L1 texts
+# fLS = open("L1wise_data/ls_1st-release_ES.conllu")
+# fTH = open("L1wise_data/th_1st-release_ES.conllu")
+
+# only FR L1 texts
+# fLS = open("L1wise_data/ls_1st-release_FR.conllu")
+# fTH = open("L1wise_data/th_1st-release_FR.conllu")
 
 lineLS = None
 lineTH = None
