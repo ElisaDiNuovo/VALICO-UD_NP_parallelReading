@@ -567,12 +567,16 @@ print('det dx e sx TH tot:', det_dx_TH_tot, det_sx_TH_tot)
 print('adj dx e sx LS tot:', adj_dx_LS_tot, adj_sx_LS_tot)
 print('adj dx e sx TH tot:', adj_dx_TH_tot, adj_sx_TH_tot)
 
+print('=====================================================')
+
 print('diff_lessic_LSeTH', diff_lessic_LSeTH)
 print('diff_lessic_in_piu_in_LS', diff_lessic_in_piu_in_LS)
 print('diff_lessic_in_piu_in_TH', diff_lessic_in_piu_in_TH)
 
 print('diff_form_LSeTH', int((diff_form_LSeTH)))
-print('form_diversa', form_diversa)
+
+# uncomment to print all the form differences
+# print('form_diversa', form_diversa)
 
 ######################################################################
 ############ Controllo se ci sono errori di accordo ##################
@@ -956,16 +960,7 @@ print('err_number_noun in noun-det-adj', err_number_noun_3)
 print('err_number_det in noun-det-adj', err_number_det_3)
 print('err_number_adj in noun-det-adj', err_number_adj_3)
 
-print('lista di sintagmi', listaProva)
-print('numero di sintagmi', prova)
+# print('lista di sintagmi', listaProva)
+# print('numero di sintagmi', prova)
 
-counter = 0
-for i in range(0, len(det_adj_noun_LS_morph)):
-    for a in range (0, 3):
-        print(det_adj_noun_LS_morph[1][1])
-        counter += len(det_adj_noun_LS_morph[i][a])
-for i in range(0, len(det_adj_noun_TH_morph)):
-    for a in range (0, 3):
-        counter += len(det_adj_noun_TH_morph[i][a])
 
-print("numero di token", counter)
